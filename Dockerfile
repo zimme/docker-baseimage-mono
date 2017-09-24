@@ -1,4 +1,5 @@
-FROM lsiobase/xenial
+FROM zimme/xenial
+LABEL maintainer="zimme"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
